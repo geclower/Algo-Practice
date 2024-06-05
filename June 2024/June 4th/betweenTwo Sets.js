@@ -31,7 +31,7 @@ function getTotalX(a, b) {
     let min = sortedA[a.length-1]
     let max = sortedB[0]
     let c = []
-  
+
     for(let i = min; i<=max; i++){
       let check = 0
       for(let j = 0; j<a.length; j++){
@@ -44,7 +44,7 @@ function getTotalX(a, b) {
         }
       }
     }
-  
+
     for(let i=0; i<c.length;i++){
       let check = 0
       for(let j = 0; j<b.length; j++){
@@ -57,10 +57,10 @@ function getTotalX(a, b) {
         }
       }
     }
-  
+
     return result
   }
-  
+
   console.log(getTotalX([2, 4], [16, 32, 96]))
-  
+
   // [2, 4], [16, 32, 96]
