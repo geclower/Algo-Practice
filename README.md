@@ -1,6 +1,8 @@
 # Algo-Practice
 
-This is my collection of JavaScript algorythm practices!
+This is my collection of algorithm practices!
+
+Currently working in both JavaScript and Python.
 
 Each month has it's own folder along with each day. The files them selves are named after the name of the problem. 
 
