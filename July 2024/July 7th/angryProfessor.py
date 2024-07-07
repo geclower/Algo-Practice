@@ -22,3 +22,16 @@
 # Returns
 
 # string: either YES or NO
+
+def angryProfessor(k, list):
+    onTime = 0
+
+    for i in range(len(list)):
+        if list[i] <= 0:
+            onTime += 1
+    
+    if onTime >= k:
+        print("NO")
+    else:
+        print("YES")
+
