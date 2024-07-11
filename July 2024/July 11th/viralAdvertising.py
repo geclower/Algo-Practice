@@ -25,3 +25,19 @@
 # Returns
 
 # int: the cumulative likes at that day
+
+import math
+
+def viralAdvertising(n):
+    likes = 0
+    shared = 5
+    i = 1
+
+    while i<=n:
+        likes += math.floor(shared/2)
+        shared = math.floor(shared/2)*3
+        i += 1
+    
+    return likes
+
+print(viralAdvertising(3))
