@@ -2,7 +2,7 @@
 
 This is my collection of algorithm practices!
 
-Currently working in both JavaScript and Python.
+Currently working in JavaScript, PHP, and Python .
 
 Each month has it's own folder along with each day. The files them selves are named after the name of the problem. 
 
