@@ -22,3 +22,17 @@
 # Returns
 
 # int: the number of digits in  that are divisors of 
+
+def findDigits(n):
+    result = 0
+    strng = str(n)
+    lst = list(strng)
+
+    for i in range(len(lst)):
+        mod = n % int(lst[i])
+        if mod == 0:
+            result+=1
+    
+    return result
+
+print(findDigits(12))
