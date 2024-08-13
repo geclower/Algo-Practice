@@ -12,3 +12,13 @@ function squares(a, b) {
 
   
 //   not ideal for multiple large number spans at once. may come back later and optimize
+
+// found following optimization, brilliant
+
+function squares(a, b) {
+
+    const start = Math.ceil(Math.sqrt(a));
+    const end = Math.floor(Math.sqrt(b));
+    return(end - start + 1);   
+ 
+ }
