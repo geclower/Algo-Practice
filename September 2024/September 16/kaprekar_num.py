@@ -18,9 +18,15 @@ def is_kaprekar(num):
     
     sq_num = str(num*num)
     length = math.floor(len(sq_num)/2)
-    x = slice(0, length)
-    y = slice(length)
+    x = slice(length)
+    y = slice(length, len(sq_num))
     
     total = int(sq_num[x]) + int(sq_num[y])
 
-    if total == num
+    if total == num:
+        return True
+    else:
+        return False
+    
+
+print(is_kaprekar(297))
